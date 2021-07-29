@@ -1,15 +1,26 @@
 :icecream: [@array-like/fill](https://array-like.github.io/fill)
 ==
 
-ArrayLike filling functions for JavaScript.
+`ArrayLike` filling functions for JavaScript.
 See [docs](https://array-like.github.io/fill/index.html).
 
-> :building_construction: Caveat emptor! This is work in progress. Code may be
-> working. Documentation may be present. Coherence may be. Maybe.
+```js
+import {alloc} from '@array-like/alloc';
+import {iota} from '@array-like/fill';
 
-> :warning: Depending on your environment, the code may require
-> `regeneratorRuntime` to be defined, for instance by importing
-> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
+const a = alloc(100); // undefined undefined undefined ...
+iota(a, 0, 100, 0);
+a; // 0 1 2 3 4 ...
+
+import {fill} from '@array-like/fill';
+fill(a, 0, 100, -1);
+a; // -1 -1 -1 -1 -1 ...
+
+import {fillfn} from '@array-like/fill';
+fillfn(a, 0, 100, () => []);
+a; // [] [] [] [] [] ...
+a[0] !== a[1]; // true
+```
 
 [![License](https://img.shields.io/github/license/array-like/fill.svg)](https://raw.githubusercontent.com/array-like/fill/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@array-like/fill.svg)](https://www.npmjs.org/package/@array-like/fill)
