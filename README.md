@@ -25,8 +25,7 @@ a[0] !== a[1]; // true
 [![License](https://img.shields.io/github/license/array-like/fill.svg)](https://raw.githubusercontent.com/array-like/fill/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@array-like/fill.svg)](https://www.npmjs.org/package/@array-like/fill)
 [![Tests](https://img.shields.io/github/workflow/status/array-like/fill/ci:test?event=push&label=tests)](https://github.com/array-like/fill/actions/workflows/ci:test.yml?query=branch:main)
-[![Dependencies](https://img.shields.io/david/array-like/fill.svg)](https://david-dm.org/array-like/fill)
-[![Dev dependencies](https://img.shields.io/david/dev/array-like/fill.svg)](https://david-dm.org/array-like/fill?type=dev)
+[![Dependencies](https://img.shields.io/librariesio/github/array-like/fill.svg)](https://github.com/array-like/fill/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/array-like/fill.svg)](https://github.com/array-like/fill/issues)
 [![Downloads](https://img.shields.io/npm/dm/@array-like/fill.svg)](https://www.npmjs.org/package/@array-like/fill)
 
