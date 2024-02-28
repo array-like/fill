@@ -1,8 +1,8 @@
 import test from 'ava';
 import {_calloc} from '@array-like/alloc';
 
-import {iota} from '../../src/index.js';
 import {arrayTypes} from './_fixtures.js';
+import {iota} from '#module';
 
 const macro = (t, type) => {
 	const calloc = _calloc(type);

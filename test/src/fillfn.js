@@ -1,8 +1,8 @@
 import test from 'ava';
 import {_calloc} from '@array-like/alloc';
 
-import {fillfn} from '../../src/index.js';
 import {arrayTypes} from './_fixtures.js';
+import {fillfn} from '#module';
 
 const macro = (t, type) => {
 	const calloc = _calloc(type);
