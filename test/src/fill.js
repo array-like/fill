@@ -1,7 +1,9 @@
 import test from 'ava';
+
 import {_calloc} from '@array-like/alloc';
 
 import {arrayTypes} from './_fixtures.js';
+
 import {fill} from '#module';
 
 const macro = (t, type) => {
